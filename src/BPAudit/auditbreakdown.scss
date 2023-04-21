@@ -1,0 +1,129 @@
+.accordian_1_head {
+  background: url(./BPAsset/background.svg);
+  background-size: cover;
+}
+.accordian_1 {
+  margin-top: 24px;
+}
+.accordian_1_head .accordian_heading {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Lato';
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.accordian_1_head .MuiAccordionSummary-content {
+  justify-content: space-between;
+}
+.acc_box {
+  height: 64px;
+  width: 64px;
+  margin: 0px;
+  background: #ffffff;
+  border-radius: 11.98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0769fb;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  font-family: 'Inter';
+}
+.audit_header {
+  width: 877px;
+  height: 50px;
+  border-radius: 12px;
+  background: #4ca8f5;
+  margin-top: 20px;
+  padding-left: 187px;
+  padding-right: 169px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.audit_text {
+  font-family: 'Inter';
+  font-size: '14px';
+  font-weight: 700;
+  line-height: 20px;
+  color: #ffffff;
+}
+.audit_subcontainer {
+  width: 877px;
+  height: 88px;
+  background: #f8f9fd;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 12px;
+  .MuiInputBase-multiline {
+    padding: 24px 10px 0 14px;
+    width: 422px;
+    height: 72px;
+    // border: none;
+  }
+  textarea {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 500;
+    color: #585969;
+    line-height: 20px;
+  }
+}
+.audit_info {
+  width: 422px;
+  min-height: 72px;
+  // background-color: #ffffff;
+  // border-radius: 12px;
+  display: flex;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  // border: 1px solid #dfe0e4;
+}
+.audit_info .info_text {
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 500;
+  color: #585969;
+  line-height: 20px;
+}
+.add_point {
+  height: 40px;
+  width: 138px;
+  background: #ffffff;
+  border: 1px solid #0869fb;
+  color: #0869fb;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 6px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.audit-delete-bt {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+.audit_thankyou {
+  width: 100%;
+  height: 180px;
+  margin-top: 24px;
+  background: url(./BPAsset/thank-you-background.png) no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}

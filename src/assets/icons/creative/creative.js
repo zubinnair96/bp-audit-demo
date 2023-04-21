@@ -1,0 +1,14 @@
+const imageBaseUrl = process.env.REACT_APP_BACKEND_BASE_IMAGE_URL;
+export const facebookIcon = `${imageBaseUrl}/assets/9834903e-ba36-4df9-9b7e-e9afc5b6d26c`;
+export const googleIcon = `${imageBaseUrl}/assets/cab8bce8-fd10-495f-a3d8-55886870072d`;
+export const writeIcon = `${imageBaseUrl}/assets/a390da1b-d671-41c7-959c-d17ee863e34c`;
+export const selectedWriteIcon = `${imageBaseUrl}/assets/eeec02b6-3e0f-4d36-986e-e59ba9bac885`;
+export const readIcon = `${imageBaseUrl}/assets/f7d01e46-27b5-46a7-bdaa-2c7b44205728`;
+export const selectedReadIcon = `${imageBaseUrl}/assets/5815b3fc-41dd-4b9b-bf67-23998ec1d350`;
+export const trashIcon = `${imageBaseUrl}/assets/fdfbd5b8-604c-4f05-a533-370bf41aba97`;
+export const approvalIcon = `${imageBaseUrl}/assets/54a476e4-2225-44d5-8fae-1823fa67b34d`;
+export const disapprovedIcon = `${imageBaseUrl}/assets/4b418849-ee01-4a63-86c1-41cb681904d9`;
+export const crossIcon = `${imageBaseUrl}/assets/24bbc6d3-fb66-4ca4-8e58-a352a73645f5`;
+export const arrowDownIcon = `${imageBaseUrl}/assets/99adfb13-3fa7-441e-8be4-7acafd4de68a`;
+export const warningIcon = `${imageBaseUrl}/assets/cbed9232-7078-46ad-8379-2d6905dbb673`;
+export const abIcon = `${imageBaseUrl}/assets/729faf1d-dd6f-4b2f-a0c5-7553446671bd`;

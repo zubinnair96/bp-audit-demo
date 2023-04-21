@@ -1,0 +1,515 @@
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.steps {
+  padding: 3rem 0;
+  max-height: 590px;
+  overflow: auto;
+}
+.accountManger .steps {
+  max-height: 710px;
+}
+.steps_inner {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 184px;
+}
+
+.amlayout .steps_inner {
+  max-width: 230px;
+}
+.stepHelper {
+  width: 100%;
+  position: relative;
+}
+.step {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18px;
+  /* font-family: ; */
+}
+.step-name {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #adadad;
+  /* margin-top: 0; */
+}
+.step-status {
+  margin-top: 0;
+  font-size: 12px;
+  color: #aeaeae;
+  /* margin-bottom: 0; */
+}
+.step-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.question-logo {
+  background: #f9f9f9;
+  border-radius: 12px;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar_layout {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding-bottom: 94px;
+}
+.nav-footer-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 17px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.navigation_footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  width: 41px;
+  height: 41px;
+  cursor: pointer;
+}
+.footer-icon img {
+  width: 20px;
+  height: 20px;
+}
+.arrow-img {
+  width: 10px !important;
+  height: 10px !important;
+}
+.profile-icon {
+  display: flex;
+  align-items: center;
+
+  width: 59px;
+}
+.profile-icon .arrow-img {
+  margin-left: 5px;
+}
+.moreInfoIcon-img {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.selectedBackground {
+  background: #f0f6ff;
+}
+
+.completedQuest {
+  background: rgba(232, 254, 233, 0.5);
+}
+
+.left_nav_icon {
+  width: 100%;
+  height: 50px;
+}
+#questionnaire .left_nav_icon {
+  background: url(../assets/icons/nav/grey-questionairre-icon.svg) no-repeat
+    center center;
+}
+#questionnaire .completedQuest .left_nav_icon {
+  background: url(../assets/icons/nav/green-questionairre-icon.svg) no-repeat
+    center center;
+}
+#questionnaire .selectedBackground .left_nav_icon {
+  background: url(../assets/icons/nav/blue-questionairre-icon.svg) no-repeat
+    center center;
+}
+
+#CLIENTANDACCESS .left_nav_icon {
+  background: url(../assets/icons/nav/grey-questionairre-icon.svg) no-repeat
+    center center;
+}
+#CLIENTANDACCESS .completedQuest .left_nav_icon {
+  background: url(../assets/icons/nav/green-questionairre-icon.svg) no-repeat
+    center center;
+}
+#CLIENTANDACCESS .selectedBackground .left_nav_icon {
+  background: url(../assets/icons/nav/blue-questionairre-icon.svg) no-repeat
+    center center;
+}
+
+#FORM_PREVIEW .left_nav_icon {
+  background: url(../assets/icons/nav/grey-questionairre-icon.svg) no-repeat
+    center center;
+}
+#FORM_PREVIEW .completedQuest .left_nav_icon {
+  background: url(../assets/icons/nav/green-questionairre-icon.svg) no-repeat
+    center center;
+}
+#FORM_PREVIEW .selectedBackground .left_nav_icon {
+  background: url(../assets/icons/nav/blue-questionairre-icon.svg) no-repeat
+    center center;
+}
+
+#read-access .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/1ad5c543-783d-4313-9e7b-1fbefc0f0c7a)
+    no-repeat center center;
+}
+#read-access .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/307e5528-ae07-4c2c-bf85-2f3a948a077e)
+    no-repeat center center;
+}
+#read-access .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/7ac90230-b327-4fd9-b644-dfd6371fad72)
+    no-repeat center center;
+}
+#proposal .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/8bf93a14-e8c5-4870-af7f-4bcbc24b10e5)
+    no-repeat center center;
+}
+#proposal .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/3e122e7c-1c4b-4f11-b895-c36ef2693748)
+    no-repeat center center;
+}
+#proposal .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/f260ec38-2b37-400c-86d9-acca0dfa79a9)
+    no-repeat center center;
+}
+
+#ONBOARDING .left_nav_icon {
+  background: url(../assets/icons/nav/grey-proposal-icon.svg) no-repeat center
+    center;
+}
+#ONBOARDING .completedQuest .left_nav_icon {
+  background: url(../assets/icons/nav/green-proposal-icon.svg) no-repeat center
+    center;
+}
+#ONBOARDING .selectedBackground .left_nav_icon {
+  background: url(../assets/icons/nav/blue-proposal-icon.svg) no-repeat center
+    center;
+}
+
+#complete-access .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/5bb52c89-44a6-4698-827e-0d2e365da416)
+    no-repeat center center;
+}
+#complete-access .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/419add4f-160b-45a6-a1b3-62365d0b44c6)
+    no-repeat center center;
+}
+#complete-access .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/295eb9bb-afe0-4f33-9b86-cc018c0d257a)
+    no-repeat center center;
+}
+#form .left_nav_icon {
+  background: url(../assets/icons/nav/grey-form-icon.svg) no-repeat center
+    center;
+}
+#form .completedQuest .left_nav_icon {
+  background: url(../assets/icons/nav/green-form-icon.svg) no-repeat center
+    center;
+}
+#form .selectedBackground .left_nav_icon {
+  background: url(../assets/icons/nav/blue-form-icon.svg) no-repeat center
+    center;
+}
+#STRATEGY_DECK .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/465cb150-5847-46e1-afee-0fbd7417fa55)
+    no-repeat center center;
+}
+#STRATEGY_DECK .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/7e4ea96e-8e6b-4804-baef-d474b44f9dd7)
+    no-repeat center center;
+}
+#STRATEGY_DECK .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/d4b8859e-544f-466f-945a-06f5077575fc)
+    no-repeat center center;
+}
+#strategy_deck_google .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/465cb150-5847-46e1-afee-0fbd7417fa55)
+    no-repeat center center;
+}
+#strategy_deck_google .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/7e4ea96e-8e6b-4804-baef-d474b44f9dd7)
+    no-repeat center center;
+}
+#strategy_deck_google .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/d4b8859e-544f-466f-945a-06f5077575fc)
+    no-repeat center center;
+}
+#approval .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/dbd04cbf-a10f-4df9-b33d-9a1a4f8ca4f0)
+    no-repeat center center;
+}
+#approval .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/45866776-e759-4113-803f-ee7f769ef23f)
+    no-repeat center center;
+}
+#approval .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/9549ab2a-5553-4363-bca4-909cbe027cee)
+    no-repeat center center;
+}
+
+#CAMPAIGN_PREVIEW_FACEBOOK .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/24bfc7f5-a788-4b03-ab77-5327c78435de)
+    no-repeat center center;
+}
+#CAMPAIGN_PREVIEW_FACEBOOK .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/02337253-8c7a-405f-a498-ba1e0f894007)
+    no-repeat center center;
+}
+#CAMPAIGN_PREVIEW_FACEBOOK .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/7bdce1d3-2d2d-4f24-b005-e5dd7c87d08d)
+    no-repeat center center;
+}
+
+#CAMPAIGN_FOR_GOOGLE .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/bd0dca6f-6ceb-4d1f-8acd-c047b180827d)
+    no-repeat center center;
+}
+#CAMPAIGN_FOR_GOOGLE .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/dc12dd3d-c4d1-4304-9692-e7721a7945f1)
+    no-repeat center center;
+}
+#CAMPAIGN_FOR_GOOGLE .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/c6728137-ea4d-447a-bf94-0f45b59f1b10)
+    no-repeat center center;
+}
+
+#ACCOUNT_ONBOARDING .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/fe34de17-c567-4c82-954d-d184f73beb98)
+    no-repeat center center;
+}
+#ACCOUNT_ONBOARDING .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/b3a32fb7-d326-4a31-ba9e-8c71cb7dcfe3)
+    no-repeat center center;
+}
+#ACCOUNT_ONBOARDING .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/e26572f1-b659-474c-b70c-eb6305b6bb85)
+    no-repeat center center;
+}
+
+#SHARED_ASSETS .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/1ad5c543-783d-4313-9e7b-1fbefc0f0c7a)
+    no-repeat center center;
+}
+#SHARED_ASSETS .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/307e5528-ae07-4c2c-bf85-2f3a948a077e)
+    no-repeat center center;
+}
+#SHARED_ASSETS .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/7ac90230-b327-4fd9-b644-dfd6371fad72)
+    no-repeat center center;
+}
+
+#SHARED_ASSETS_COMPLETE .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/5bb52c89-44a6-4698-827e-0d2e365da416)
+    no-repeat center center;
+}
+#SHARED_ASSETS_COMPLETE .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/419add4f-160b-45a6-a1b3-62365d0b44c6)
+    no-repeat center center;
+}
+#SHARED_ASSETS_COMPLETE .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/295eb9bb-afe0-4f33-9b86-cc018c0d257a)
+    no-repeat center center;
+}
+
+#PROPOSAL_INPUTS .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/70e1ce7b-a1cd-4c8a-86de-2fa89c1e83ed)
+    no-repeat center center;
+}
+#PROPOSAL_INPUTS .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/38ee7cba-d4dc-4c7e-95a3-44f544a98fee)
+    no-repeat center center;
+}
+#PROPOSAL_INPUTS .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/7165353d-1665-4e18-a96b-30b138ec8b77)
+    no-repeat center center;
+}
+
+#ACCOUNT_SCOPE_OF_WORK_AND_PRICING .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/0f438951-deb4-4442-806f-1da477b346ff)
+    no-repeat center center;
+}
+#ACCOUNT_SCOPE_OF_WORK_AND_PRICING .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/2fc695dd-6002-420a-a1b3-0742470c6689)
+    no-repeat center center;
+}
+#ACCOUNT_SCOPE_OF_WORK_AND_PRICING .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/de628ef2-cd7e-4cd3-9a10-ea94f40edd59)
+    no-repeat center center;
+}
+
+#AUDIT .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/dcac5b1c-6c21-47f2-8e49-c21f5122ff4a)
+    no-repeat center center;
+}
+#AUDIT .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/88e73a27-5146-461e-87d1-76df972e9e6b)
+    no-repeat center center;
+}
+#AUDIT .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/c8e281e6-ba32-4696-873c-740ac4fbfc51)
+    no-repeat center center;
+}
+
+#CREATIVE_APPROVAL .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/5a7e91dd-8cf6-4d84-9666-7258f62d4522)
+    no-repeat center center;
+}
+#CREATIVE_APPROVAL .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/1a18dce6-e65c-421b-abd0-b8aacd5a4ae4)
+    no-repeat center center;
+}
+#CREATIVE_APPROVAL .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/12e85f93-818d-43b2-a1db-d883f515dcf3)
+    no-repeat center center;
+}
+
+#AUDIT_FACEBOOK .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/686af691-d632-495f-9f51-0541712754c7)
+    no-repeat center center;
+}
+#AUDIT_FACEBOOK .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/6d2ddaa7-ff51-44dd-b683-fa2207ac0708)
+    no-repeat center center;
+}
+#AUDIT_FACEBOOK .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/5328fe39-caaf-4ac5-afbc-0218599cfc97)
+    no-repeat center center;
+}
+
+#proposal .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/8bf93a14-e8c5-4870-af7f-4bcbc24b10e5)
+    no-repeat center center;
+}
+#proposal .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/3e122e7c-1c4b-4f11-b895-c36ef2693748)
+    no-repeat center center;
+}
+#proposal .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/f260ec38-2b37-400c-86d9-acca0dfa79a9)
+    no-repeat center center;
+}
+
+.amlayout #questionnaire .left_nav_icon {
+  background: url(../assets/icons/nav/grey-proposal-icon.svg) no-repeat center
+    center;
+}
+.amlayout #questionnaire .completedQuest .left_nav_icon {
+  background: url(../assets/icons/nav/green-proposal-icon.svg) no-repeat center
+    center;
+}
+.amlayout #questionnaire .selectedBackground .left_nav_icon {
+  background: url(../assets/icons/nav/blue-proposal-icon.svg) no-repeat center
+    center;
+}
+
+.amlayout #proposal .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/8bf93a14-e8c5-4870-af7f-4bcbc24b10e5)
+    no-repeat center center;
+}
+.amlayout #proposal .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/3e122e7c-1c4b-4f11-b895-c36ef2693748)
+    no-repeat center center;
+}
+.amlayout #proposal .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/f260ec38-2b37-400c-86d9-acca0dfa79a9)
+    no-repeat center center;
+}
+
+/* .amlayout #REVIEW_INTAKE_FORM .left_nav_icon {
+    background: url(../../../assets/icons/nav/grey-proposal.svg) no-repeat center
+      center;
+  }
+  .amlayout #REVIEW_INTAKE_FORM .completedQuest .left_nav_icon {
+    background: url(../../../assets/icons/nav/green-proposal.svg) no-repeat center
+      center;
+  }
+  .amlayout #REVIEW_INTAKE_FORM .selectedBackground .left_nav_icon {
+    background: url(../../../assets/icons/nav/blue-proposal.svg) no-repeat center
+      center;
+  } */
+
+.amlayout #REVIEW_INTAKE_FORM .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/7f87dee2-08d2-4137-8878-9c472e49e632)
+    no-repeat center center;
+}
+.amlayout #REVIEW_INTAKE_FORM .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/2bf334ca-1f7e-4eee-82b6-5c1f6ef5eb8e)
+    no-repeat center center;
+}
+.amlayout #REVIEW_INTAKE_FORM .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/ffb5b19a-d567-409f-ad3e-b6dcffb80c33)
+    no-repeat center center;
+}
+.amlayout #STRATEGY_INPUT .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/fa83f9cf-ba62-4f7d-94f0-d78f3712f5f8)
+    no-repeat center center;
+}
+.amlayout #STRATEGY_INPUT .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/51d9b704-0f7a-42e8-985f-810e73577384)
+    no-repeat center center;
+}
+.amlayout #STRATEGY_INPUT .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/96f71cb6-ab2a-456d-b0e0-c20f6d905d3a)
+    no-repeat center center;
+}
+
+.amlayout #STRATEGY_GOOGLE .left_nav_icon {
+  background: url(../assets/icons/nav/grey-google-icon.svg) no-repeat center
+    center;
+}
+.amlayout #STRATEGY_GOOGLE .completedQuest .left_nav_icon {
+  background: url(../assets/icons/nav/green-google-icon.svg) no-repeat center
+    center;
+}
+.amlayout #STRATEGY_GOOGLE .selectedBackground .left_nav_icon {
+  background: url(../assets/icons/nav/blue-google-icon.svg) no-repeat center
+    center;
+}
+
+.amlayout #STRATEGY_FACEBOOK .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/acc14b9f-23dd-4b78-98d9-0b785fc90f83)
+    no-repeat center center;
+  background-size: 20px auto;
+}
+.amlayout #STRATEGY_FACEBOOK .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/9045e6a3-3156-4b7c-b90e-792b531adf2a)
+    no-repeat center center;
+}
+.amlayout #STRATEGY_FACEBOOK .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/b86f5530-9080-4e82-a6ab-9e8e5d5c87bd)
+    no-repeat center center;
+}
+
+.amlayout #CAMPAIGN_PREVIEW .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/dbd04cbf-a10f-4df9-b33d-9a1a4f8ca4f0)
+    no-repeat center center;
+  background-size: 20px auto;
+}
+.amlayout #CAMPAIGN_PREVIEW .completedQuest .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/45866776-e759-4113-803f-ee7f769ef23f)
+    no-repeat center center;
+}
+.amlayout #CAMPAIGN_PREVIEW .selectedBackground .left_nav_icon {
+  background: url(https://onboarding-backend-dev.pixis.ai/files/assets/9549ab2a-5553-4363-bca4-909cbe027cee)
+    no-repeat center center;
+}
